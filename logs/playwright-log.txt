@@ -1,52 +1,52 @@
-{"level":30,"time":"2025-01-30T22:38:08.738Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Listening on 60630"}
-(node:18599) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+{"level":30,"time":"2025-01-30T22:42:38.262Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Listening on 61734"}
+(node:19738) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
 (Use `node --trace-deprecation ...` to show where the warning was created)
-{"level":30,"time":"2025-01-30T22:38:09.802Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method newBrowser"}
-{"level":30,"time":"2025-01-30T22:38:10.612Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Adding browser to stack: chromium, version: 133.0.6943.16"}
-{"level":30,"time":"2025-01-30T22:38:10.613Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method newBrowser"}
-{"level":30,"time":"2025-01-30T22:38:10.613Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Adding 0 contexts to browser"}
-{"level":30,"time":"2025-01-30T22:38:10.620Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method newPage"}
-{"level":30,"time":"2025-01-30T22:38:10.621Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2025-01-30T22:38:10.637Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Changed active context"}
-{"level":30,"time":"2025-01-30T22:38:11.499Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Video path: undefined"}
-{"level":30,"time":"2025-01-30T22:38:11.499Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Changed active page"}
-{"level":30,"time":"2025-01-30T22:38:12.223Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method newPage"}
-{"level":30,"time":"2025-01-30T22:38:12.230Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method goTo"}
-{"level":30,"time":"2025-01-30T22:38:12.459Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method goTo"}
-{"level":30,"time":"2025-01-30T22:38:12.468Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-01-30T22:38:12.469Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
-{"level":30,"time":"2025-01-30T22:38:12.521Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method fillText"}
-{"level":30,"time":"2025-01-30T22:38:12.526Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method fillText"}
-{"level":30,"time":"2025-01-30T22:38:12.526Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Strict mode is enabled, find Locator with css=input[id=password] in page."}
-{"level":30,"time":"2025-01-30T22:38:12.612Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method fillText"}
-{"level":30,"time":"2025-01-30T22:38:12.617Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method click"}
-{"level":30,"time":"2025-01-30T22:38:12.617Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
-{"level":30,"time":"2025-01-30T22:38:12.680Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method click"}
-{"level":30,"time":"2025-01-30T22:38:12.686Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method waitForElementState"}
-{"level":30,"time":"2025-01-30T22:38:12.687Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Strict mode is enabled, find Locator with css=.logged-user in page."}
-{"level":30,"time":"2025-01-30T22:38:15.505Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method waitForElementState"}
-{"level":30,"time":"2025-01-30T22:38:15.510Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method getText"}
-{"level":30,"time":"2025-01-30T22:38:15.510Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Strict mode is enabled, find Locator with css=.logged-user in page."}
-{"level":30,"time":"2025-01-30T22:38:15.536Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Retrieved text for element css=.logged-user containing sac@smartbit.com"}
-{"level":30,"time":"2025-01-30T22:38:15.536Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method getText"}
-{"level":30,"time":"2025-01-30T22:38:15.542Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method takeScreenshot"}
-{"level":30,"time":"2025-01-30T22:38:15.543Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","Take screenshot with options: ":{"path":"/Users/macbook/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
-{"level":30,"time":"2025-01-30T22:38:15.654Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method takeScreenshot"}
-{"level":30,"time":"2025-01-30T22:38:15.664Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-30T22:38:15.667Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-30T22:38:15.670Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-30T22:38:15.671Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-30T22:38:15.674Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-30T22:38:15.676Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-30T22:38:15.679Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-30T22:38:15.681Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-30T22:38:15.684Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Changed active context"}
-{"level":30,"time":"2025-01-30T22:38:15.684Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Changing current active page: page=e8ec65e1-6d4e-4a59-bdcb-f027ae9e9f5b"}
-{"level":30,"time":"2025-01-30T22:38:15.684Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Changed active page"}
-{"level":30,"time":"2025-01-30T22:38:15.690Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method closeContext"}
-{"level":30,"time":"2025-01-30T22:38:15.709Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Removed page=0864bf63-9045-4fee-8b94-b7a5a221d97d from context=3db69a60-9642-4a91-8e20-36a7295c487d page stack"}
-{"level":30,"time":"2025-01-30T22:38:15.734Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method closeContext"}
-{"level":30,"time":"2025-01-30T22:38:15.747Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-30T22:38:15.747Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method getBrowserCatalog"}
-{"level":30,"time":"2025-01-30T22:38:15.793Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method closeAllBrowsers"}
-{"level":30,"time":"2025-01-30T22:38:16.048Z","pid":18599,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method closeAllBrowsers"}
+{"level":30,"time":"2025-01-30T22:42:39.331Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-01-30T22:42:40.205Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Adding browser to stack: chromium, version: 133.0.6943.16"}
+{"level":30,"time":"2025-01-30T22:42:40.205Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-01-30T22:42:40.205Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-01-30T22:42:40.214Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-01-30T22:42:40.214Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-01-30T22:42:40.229Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Changed active context"}
+{"level":30,"time":"2025-01-30T22:42:41.061Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Video path: undefined"}
+{"level":30,"time":"2025-01-30T22:42:41.061Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Changed active page"}
+{"level":30,"time":"2025-01-30T22:42:41.826Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method newPage"}
+{"level":30,"time":"2025-01-30T22:42:41.834Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method goTo"}
+{"level":30,"time":"2025-01-30T22:42:42.059Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method goTo"}
+{"level":30,"time":"2025-01-30T22:42:42.070Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-30T22:42:42.071Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Strict mode is enabled, find Locator with css=input[name=email] in page."}
+{"level":30,"time":"2025-01-30T22:42:42.121Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-30T22:42:42.126Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-01-30T22:42:42.126Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Strict mode is enabled, find Locator with css=input[id=password] in page."}
+{"level":30,"time":"2025-01-30T22:42:42.212Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method fillText"}
+{"level":30,"time":"2025-01-30T22:42:42.217Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method click"}
+{"level":30,"time":"2025-01-30T22:42:42.217Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Strict mode is enabled, find Locator with css=button >> text=Entrar in page."}
+{"level":30,"time":"2025-01-30T22:42:42.279Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method click"}
+{"level":30,"time":"2025-01-30T22:42:42.286Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-01-30T22:42:42.286Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Strict mode is enabled, find Locator with css=.logged-user in page."}
+{"level":30,"time":"2025-01-30T22:42:45.106Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-01-30T22:42:45.112Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method getText"}
+{"level":30,"time":"2025-01-30T22:42:45.112Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Strict mode is enabled, find Locator with css=.logged-user in page."}
+{"level":30,"time":"2025-01-30T22:42:45.138Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Retrieved text for element css=.logged-user containing sac@smartbit.com"}
+{"level":30,"time":"2025-01-30T22:42:45.138Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method getText"}
+{"level":30,"time":"2025-01-30T22:42:45.144Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-01-30T22:42:45.144Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","Take screenshot with options: ":{"path":"/Users/macbook/QAx/projects/smartbit-robot/logs/browser/screenshot/robotframework-browser-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-01-30T22:42:45.254Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-01-30T22:42:45.261Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-30T22:42:45.265Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-30T22:42:45.268Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-30T22:42:45.270Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-30T22:42:45.272Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-30T22:42:45.275Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-30T22:42:45.279Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-30T22:42:45.281Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-30T22:42:45.283Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Changed active context"}
+{"level":30,"time":"2025-01-30T22:42:45.283Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Changing current active page: page=1ec4b229-a31c-4992-abb6-8ca0e4b86b71"}
+{"level":30,"time":"2025-01-30T22:42:45.283Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Changed active page"}
+{"level":30,"time":"2025-01-30T22:42:45.290Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method closeContext"}
+{"level":30,"time":"2025-01-30T22:42:45.324Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Removed page=b2637c37-34ca-49c9-86e9-853be814b576 from context=c34e1526-eaa6-4f6b-88e0-a8e45954db74 page stack"}
+{"level":30,"time":"2025-01-30T22:42:45.348Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method closeContext"}
+{"level":30,"time":"2025-01-30T22:42:45.359Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-30T22:42:45.359Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-01-30T22:42:45.408Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-01-30T22:42:45.654Z","pid":19738,"hostname":"MacBook-Pro-de-MacBook.local","msg":"End of node method closeAllBrowsers"}

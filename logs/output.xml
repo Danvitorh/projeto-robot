@@ -1,93 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2 (Python 3.13.1 on darwin)" generated="2025-01-30T19:38:07.658166" rpa="false" schemaversion="5">
+<robot generator="Robot 7.2 (Python 3.13.1 on darwin)" generated="2025-01-30T19:42:37.187718" rpa="false" schemaversion="5">
 <suite id="s1" name="Login" source="/Users/macbook/QAx/projects/smartbit-robot/tests/login.robot">
 <test id="s1-t1" name="Deve logar como gestor de Academia" line="10">
 <kw name="Start session" owner="Base" type="SETUP">
 <kw name="New Browser" owner="Browser">
-<msg time="2025-01-30T19:38:08.073855" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/macbook/QAx/projects/smartbit-robot/logs/browser/traces/temp/9b87fd5a-d1e0-42c0-80dc-efd20c0e2dd7"}</msg>
-<msg time="2025-01-30T19:38:08.125111" level="INFO">Starting Browser process /usr/local/lib/python3.13/site-packages/Browser/wrapper/index.js using port 60630</msg>
-<msg time="2025-01-30T19:38:08.125406" level="INFO">Node startup parameters: ['node', '/usr/local/lib/python3.13/site-packages/Browser/wrapper/index.js', '60630']</msg>
-<msg time="2025-01-30T19:38:10.614693" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/macbook/QAx/projects/smartbit-robot/logs/browser/traces/temp/9b87fd5a-d1e0-42c0-80dc-efd20c0e2dd7"}</msg>
+<msg time="2025-01-30T19:42:37.600002" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "/Users/macbook/QAx/projects/smartbit-robot/logs/browser/traces/temp/be988eeb-1b50-4e3a-9434-17e3a7aebab9"}</msg>
+<msg time="2025-01-30T19:42:37.652756" level="INFO">Starting Browser process /usr/local/lib/python3.13/site-packages/Browser/wrapper/index.js using port 61734</msg>
+<msg time="2025-01-30T19:42:37.653063" level="INFO">Node startup parameters: ['node', '/usr/local/lib/python3.13/site-packages/Browser/wrapper/index.js', '61734']</msg>
+<msg time="2025-01-30T19:42:40.207378" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"/Users/macbook/QAx/projects/smartbit-robot/logs/browser/traces/temp/be988eeb-1b50-4e3a-9434-17e3a7aebab9"}</msg>
 <arg>browser=chromium</arg>
 <arg>headless=False</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2025-01-30T19:38:08.072859" elapsed="2.542385"/>
+<status status="PASS" start="2025-01-30T19:42:37.599001" elapsed="2.608823"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2025-01-30T19:38:12.224899" level="INFO">Successfully initialized new page object and opened url: http://localhost:3000</msg>
-<msg time="2025-01-30T19:38:12.225000" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<msg time="2025-01-30T19:42:41.827501" level="INFO">Successfully initialized new page object and opened url: http://localhost:3000</msg>
+<msg time="2025-01-30T19:42:41.827604" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
 <arg>http://localhost:3000</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2025-01-30T19:38:10.615927" elapsed="1.609317"/>
+<status status="PASS" start="2025-01-30T19:42:40.208662" elapsed="1.619201"/>
 </kw>
-<status status="PASS" start="2025-01-30T19:38:08.071904" elapsed="4.153581"/>
+<status status="PASS" start="2025-01-30T19:42:37.598089" elapsed="4.230012"/>
 </kw>
 <kw name="Go to login page" owner="Login">
 <kw name="Go To" owner="Browser">
-<msg time="2025-01-30T19:38:12.461027" level="INFO">Successfully opened URL http://localhost:3000/login</msg>
+<msg time="2025-01-30T19:42:42.062623" level="INFO">Successfully opened URL http://localhost:3000/login</msg>
 <arg>http://localhost:3000/login</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Navigates to the given ``url``.</doc>
-<status status="PASS" start="2025-01-30T19:38:12.226585" elapsed="0.234734"/>
+<status status="PASS" start="2025-01-30T19:42:41.829202" elapsed="0.234097"/>
 </kw>
-<status status="PASS" start="2025-01-30T19:38:12.225971" elapsed="0.235697"/>
+<status status="PASS" start="2025-01-30T19:42:41.828605" elapsed="0.235100"/>
 </kw>
 <kw name="Submit login form" owner="Login">
 <kw name="Fill Text" owner="Browser">
-<msg time="2025-01-30T19:38:12.465088" level="INFO">Fills the text 'sac@smartbit.com' in the given field.</msg>
+<msg time="2025-01-30T19:42:42.068014" level="INFO">Fills the text 'sac@smartbit.com' in the given field.</msg>
 <arg>css=input[name=email]</arg>
 <arg>${email}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-01-30T19:38:12.464069" elapsed="0.059180"/>
+<status status="PASS" start="2025-01-30T19:42:42.066652" elapsed="0.056396"/>
 </kw>
 <kw name="Fill Text" owner="Browser">
-<msg time="2025-01-30T19:38:12.524256" level="INFO">Fills the text 'pwd123' in the given field.</msg>
+<msg time="2025-01-30T19:42:42.124022" level="INFO">Fills the text 'pwd123' in the given field.</msg>
 <arg>css=input[id=password]</arg>
 <arg>${password}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-01-30T19:38:12.523512" elapsed="0.090188"/>
+<status status="PASS" start="2025-01-30T19:42:42.123310" elapsed="0.090310"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2025-01-30T19:38:12.615220" level="INFO">Clicks the element 'css=button &gt;&gt; text=Entrar'.</msg>
+<msg time="2025-01-30T19:42:42.214642" level="INFO">Clicks the element 'css=button &gt;&gt; text=Entrar'.</msg>
 <arg>css=button &gt;&gt; text=Entrar</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-01-30T19:38:12.614052" elapsed="0.068106"/>
+<status status="PASS" start="2025-01-30T19:42:42.213898" elapsed="0.067175"/>
 </kw>
 <arg>sac@smartbit.com</arg>
 <arg>pwd123</arg>
-<status status="PASS" start="2025-01-30T19:38:12.463105" elapsed="0.219224"/>
+<status status="PASS" start="2025-01-30T19:42:42.065038" elapsed="0.216346"/>
 </kw>
-<kw name="User is logged in" owner="Login">
+<kw name="User is logged in" owner="Accounts">
 <kw name="Set Variable" owner="BuiltIn">
-<msg time="2025-01-30T19:38:12.683949" level="INFO">${element} = css=.logged-user</msg>
+<msg time="2025-01-30T19:42:42.283083" level="INFO">${element} = css=.logged-user</msg>
 <var>${element}</var>
 <arg>css=.logged-user</arg>
 <doc>Returns the given values which can then be assigned to a variables.</doc>
-<status status="PASS" start="2025-01-30T19:38:12.683520" elapsed="0.000492"/>
+<status status="PASS" start="2025-01-30T19:42:42.282743" elapsed="0.000391"/>
 </kw>
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-01-30T19:38:15.506385" level="INFO">Waited for Element with selector css=.logged-user at state visible</msg>
+<msg time="2025-01-30T19:42:45.108110" level="INFO">Waited for Element with selector css=.logged-user at state visible</msg>
 <arg>${element}</arg>
 <arg>visible</arg>
 <arg>5</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-01-30T19:38:12.684288" elapsed="2.822343"/>
+<status status="PASS" start="2025-01-30T19:42:42.283395" elapsed="2.824954"/>
 </kw>
 <kw name="Get Text" owner="Browser">
-<msg time="2025-01-30T19:38:15.538814" level="INFO">Text: 'sac@smartbit.com'</msg>
+<msg time="2025-01-30T19:42:45.140337" level="INFO">Text: 'sac@smartbit.com'</msg>
 <arg>${element}</arg>
 <arg>equal</arg>
 <arg>${email}</arg>
@@ -95,25 +95,25 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" start="2025-01-30T19:38:15.506932" elapsed="0.032059"/>
+<status status="PASS" start="2025-01-30T19:42:45.108665" elapsed="0.031844"/>
 </kw>
 <arg>sac@smartbit.com</arg>
-<status status="PASS" start="2025-01-30T19:38:12.682798" elapsed="2.856348"/>
+<status status="PASS" start="2025-01-30T19:42:42.282118" elapsed="2.858546"/>
 </kw>
 <kw name="Take Screenshot" owner="Browser" type="TEARDOWN">
-<msg time="2025-01-30T19:38:15.656395" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
+<msg time="2025-01-30T19:42:45.255529" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="browser/screenshot/robotframework-browser-screenshot-1.png" target="_blank"&gt;&lt;img src="browser/screenshot/robotframework-browser-screenshot-1.png" width="800px"/&gt;&lt;/a&gt;</msg>
 <tag>PageContent</tag>
 <doc>Takes a screenshot of the current window or element and saves it to disk.</doc>
-<status status="PASS" start="2025-01-30T19:38:15.539568" elapsed="0.117039"/>
+<status status="PASS" start="2025-01-30T19:42:45.141078" elapsed="0.114651"/>
 </kw>
-<msg time="2025-01-30T19:38:15.660556" level="INFO">Set timeout to: 10000</msg>
-<msg time="2025-01-30T19:38:15.678387" level="INFO">Switching context to context=3db69a60-9642-4a91-8e20-36a7295c487d in CURRENT</msg>
-<msg time="2025-01-30T19:38:15.690132" level="INFO">Successfully changed active context: context=3db69a60-9642-4a91-8e20-36a7295c487d</msg>
-<msg time="2025-01-30T19:38:15.736688" level="INFO">Successfully closed Context</msg>
-<status status="PASS" start="2025-01-30T19:38:08.070905" elapsed="7.585927"/>
+<msg time="2025-01-30T19:42:45.259379" level="INFO">Set timeout to: 10000</msg>
+<msg time="2025-01-30T19:42:45.277646" level="INFO">Switching context to context=c34e1526-eaa6-4f6b-88e0-a8e45954db74 in CURRENT</msg>
+<msg time="2025-01-30T19:42:45.289546" level="INFO">Successfully changed active context: context=c34e1526-eaa6-4f6b-88e0-a8e45954db74</msg>
+<msg time="2025-01-30T19:42:45.349295" level="INFO">Successfully closed Context</msg>
+<status status="PASS" start="2025-01-30T19:42:37.597137" elapsed="7.658800"/>
 </test>
 <doc>Cenários de testes do login SAC</doc>
-<status status="PASS" start="2025-01-30T19:38:07.659729" elapsed="8.078639"/>
+<status status="PASS" start="2025-01-30T19:42:37.189331" elapsed="8.162404"/>
 </suite>
 <statistics>
 <total>
