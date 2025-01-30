@@ -115,4 +115,4 @@ Attempt signup
     ...    cpf= ${cpf}
 
     Submit signup form    ${account}
-    Notice should be        ${output_message}
+    Notice should be        ${output_message} 
