@@ -28,3 +28,23 @@ Nao deve logar com email nao cadastrado
     Go to login page
     Submit login form    404@smartbit.com    abc123
     Toast should be      As credenciais de acesso fornecidas são inválidas. Tente novamente!    
+
+Tentativa de login com dados incorretos
+    [Tags]        temp
+    [Template]    Login with verify notice
+
+    ${EMPTY}             ${EMPTY}        Os campos email e senha são obrigatórios.
+    ${EMPTY}             pwd123          Os campos email e senha são obrigatórios.
+    sac@smartbit.com     ${EMPTY}        Os campos email e senha são obrigatórios.
+    www.smartbit.com     pwd123          Oops! O email informado é inválido
+    1111111111111111     pwd123          Oops! O email informado é inválido
+    yahoo.com@**;        pwd123          Oops! O email informado é inválido
+
+*** Keywords ***
+Login with verify notice
+    [Arguments]    ${email}    ${password}    ${output_message}
+    
+    Go to login page
+    Submit login form    ${email}    ${password}
+    Notice should be     ${output_message}
+
