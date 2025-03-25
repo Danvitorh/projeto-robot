@@ -9,8 +9,13 @@ Test Teardown   Take Screenshot
 
 *** Test Cases ***
 Deve iniciar o cadastro do cliente
+    [Tags]        smoke
     # preparação
-    ${account}    Get Fake Account
+    ${account}         Create Dictionary
+    ...                name=Daniel Silva
+    ...                email=daniel@teste.com
+    ...                cpf=549.263.700-26
+    # caso queira utilizar massas via faker js ${account}    Get Fake Account
     #ação
     Submit signup form    ${account}
     #verificação
